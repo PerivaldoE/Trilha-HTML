@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link  rel="stylesheet" href="styler.css">
+</head>
+<body>
+    <header> <img class="img4" src="/Imagens/logo4.jpg" alt="Logo pg 4"></header>
+    <nav>
+        <a href="/Index.html">Home</a>
+        <a href="/Sobre.html">Quem somos</a>
+        <a href="/Atendimento.html">Atendimento</a>
+        <a href="/Contato.html">Contato</a>
+    </nav>
+
+    <div class="contact-info">
+        <h2>Informações de Contato</h2>
+        <p><strong>Telefone Celular:</strong> (00) 000000000</p>
+        <p><strong>WhatsApp:</strong> (00) 000000000</p>
+        <p><strong>Endereço:</strong> Rua Exemplo, 123 - Bairro Exemplo, Cidade Exemplo - CE, 01234-567</p>
+    </div>
+
+    <div class="map">
+        <h2>Localização</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7962.3421769039105!2d-38.5631599559663!3d-3.772924305192673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1718216253789!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+<div class="contact-form">
+        <h2>Formulário de Contato</h2>
+        <form action="enviar_formulario.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="assunto">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+            <button type="reset" class="btn-clear">Limpar Formulário</button>
+            <button type="submit" class="btn-submit">Enviar</button>
+        </form>
+</div>
+<footer>
+    <p>&copy; 2024 Clínica. Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>
